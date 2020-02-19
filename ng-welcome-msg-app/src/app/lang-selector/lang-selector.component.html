@@ -1,0 +1,15 @@
+<div id="lang-select">
+  <div class="lang-box">
+    <img src="../../assets/img/South_Korea.png">
+    <label *ngIf="langCode === 'ko'">선택됨</label>
+    <button type="button" (click)="setLangCode('ko')" 
+      [disabled]="langCode === 'ko'">한글</button>
+  </div>
+  <div class="lang-box">
+    <img src="../../assets/img/United_States.png">
+    <label *ngIf="langCode === 'us'">selected</label>
+    <button type="button" (click)="setLangCode('us')" 
+      [disabled]="langCode === 'us'">English</button> 
+  </div>
+  <!--other language packages -->
+</div>
