@@ -1,0 +1,11 @@
+.lang-box{
+    width: 20%;
+    display: inline-block;
+    margin: 5% 5%;
+}
+
+.lang-box img{
+    width: 70%;
+    height: 70%;
+    border: 1px solid darkblue;
+}
