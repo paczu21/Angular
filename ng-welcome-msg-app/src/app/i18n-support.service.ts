@@ -3,7 +3,7 @@ import { LANG_METADATA } from './lang-metadata';
 
 @Injectable()
 export class I18nSupportService {
-  langCode = 'us';
+  langCode = 'ko';
 
   constructor() { 
   }

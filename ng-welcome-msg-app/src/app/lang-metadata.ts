@@ -16,17 +16,5 @@ export const LANG_METADATA = [
         name: '프랑스',
         flagImgName: 'France.png',
         msg: 'Bonjour'
-    },
-    {
-        code: 'jr',
-        name: '일본',
-        flagImgName: 'Japan.png',
-        msg: 'こんにちは'
-    },
-    {
-        code: 'ch',
-        name: '중국',
-        flagImgName: 'China.png',
-        msg: '你好'
     }
 ];
